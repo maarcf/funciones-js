@@ -1,0 +1,25 @@
+Funciones
+
+Son un tipo de datos en JS, se pueden guardar dentro de variables.
+Definen un bloque de código reutilizable.
+Reciben parámetros, los procesan y retornan la información procesada.
+
+
+Lo que está dentro de los corchetes es un bloque de
+código y un bloque de código define un scope (alcance).
+
+Las funciones normalmente van con const
+
+Las variables que están dentro de una función sólo viven
+dentro de la función.
+
+Las funciones tienen parámetros (argumentos). El orden en que los escribo,
+es el orden en el que la funcion les asigna valor.
+Si la función espera dos parametros y le llegan tres. El tercero
+es ignorado.
+Si la función espera tres parametros y le llegan dos. el tercero
+toma un valor como "undefined".
+Si en la declaración de la función no defino un parámetro pero lo uso
+dentro de la función. DA UN ERROR!
+
+RETURN -> es lo que nos devuelve la funcion.

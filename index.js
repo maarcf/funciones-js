@@ -61,3 +61,23 @@ const saludarGritando = (nombre, apellido) => {
   return gritar(saludoConNombrePersona)
 }
 console.log(saludarGritando("Lisa", "Simpson"))
+
+
+
+// Ejercicio 17
+const obtenerCompetencia = (a, b) => `${a} vs. ${b}`
+console.log(obtenerCompetencia('JavaScript', 'Python'))
+console.log(obtenerCompetencia('Coca', 'Pepsi'))
+console.log(obtenerCompetencia('Perros', 'Gatos'))
+
+
+// Ejercicio 18
+const generarEmail = (usuarie, dominio) => `${usuarie}@${dominio}.com`
+console.log(generarEmail('mari','gmail'))
+console.log(generarEmail('adalovelace', 'gmail')) // 'adalovelace@gmail.com'
+
+// Ejercicio 19
+const calcularPuntaje = (facil, normal, dificil) => facil*3 + normal*5 + dificil*10
+console.log(calcularPuntaje(3, 0, 0)) // 9
+console.log(calcularPuntaje(0, 2, 1)) // 20
+console.log(calcularPuntaje(5, 1, 2)) // 40
