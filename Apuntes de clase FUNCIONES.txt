@@ -23,3 +23,52 @@ Si en la declaración de la función no defino un parámetro pero lo uso
 dentro de la función. DA UN ERROR!
 
 RETURN -> es lo que nos devuelve la funcion.
+
+ALGUNOS DE LOS TIPOS DE DATOS DE JS:
+Boolean, Number, String, undefined, NaN, 
+
+Los datos pueden coercionarse a otro dato:
+Boolean(dato a coercionar)
+Number(idem)
+String(idem)
+
+Valores Falsy---> 0 -0 "" undefined NaN
+Valores Truthy --> "String con contenido" 5 -5
+
+--------------- CLASE 15: Condicionales -----------
+
+Operadores relacionales
+mayor >
+menor <
+mayor o igual >=
+menor o igual <=
+
+Operaciones de igualdad
+Igualdad NO-ESTRICTA
+== 
+Compara por valor pero no se fija el tipo de dato.
+
+Igualdad ESTRICTA
+===
+Compara por valor y por tipo de dato a la vez.
+
+Operaciones de desigualdad
+Desigualdad NO-ESTRICTA 
+!=
+
+Desigualdad ESTRICTA
+!==
+
+* La diferencia entre NO ESTRICTA y ESTRICTA acá es la misma que
+operaciones de igualdad.
+
+
+
+ESTRUCTURAS CONDICIONALES
+
+If (una pregunta que responda con booleano) {
+  bloque de código
+}
+else {
+  nuevo bloque de código
+}
